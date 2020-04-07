@@ -26,7 +26,7 @@ inDir = os.fsencode(inDirPath)
 
 for file in os.listdir(inDir):
 	filename = os.fsdecode(file)
-	if filename.endswith(".nef"):
+	if filename.endswith(".nef") or filename.endswith(".jpg") or filename.endswith(".jpeg"):
 		print("### " + filename + " ####################")
 		nefFile = open(inDirPath + "/" + filename, 'rb')
 		try:
@@ -40,24 +40,28 @@ for file in os.listdir(inDir):
 
 		if date == "Unknown_Date":
 			os.makedirs(str(outDirPath + "/" + date), exist_ok=True)
+			nefFolderName = date
 			nefOutputPath = outDirPath + "/" + date + "/" + filename
-
 		else:
-			date_time_obj = datetime.datetime.strptime(date, '%Y:%m:%d %H:%M:%S')
-			nefFolderName = date_time_obj.strftime("%Y/%B/%d")
-			# print("   Camera: " + cameraID)
-			# print("   Date: " + date_time_obj.strftime("%Y/%m"))
+			try:
+				date_time_obj = datetime.datetime.strptime(date, '%Y:%m:%d %H:%M:%S')
+			except Exception as exc:
+				print("invalid date? " + date)
+				date_time_obj = None
 
-			# create dir in year / month / dat format
-			os.makedirs(str(outDirPath + "/" + nefFolderName), exist_ok=True)
-			nefOutputPath = outDirPath + "/" + nefFolderName + "/" + filename
+			if date_time_obj is None:
+				nefFolderName = "Unknown_Date"
+			else:
+				nefFolderName = date_time_obj.strftime("%Y/%B/%d")
+
+
+		# create dir in year / month / dat format
+		os.makedirs(str(outDirPath + "/" + nefFolderName), exist_ok=True)
+		nefOutputPath = outDirPath + "/" + nefFolderName + "/" + filename
 
 		print("Copying file to " + nefOutputPath)
 
 		shutil.copyfile(inDirPath + "/" + filename, nefOutputPath)
 
-
-def hola():
-	print('this is hola()')
 
 

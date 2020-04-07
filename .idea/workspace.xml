@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28dbea26-57e0-4a5f-a74b-1b001b9e1eb5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/nef_organize.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nef_organize.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyvenv.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nef_organize.py" beforeDir="false" afterPath="$PROJECT_DIR$/nef_organize.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,22 +71,22 @@
       <screen x="0" y="23" width="3008" height="1626" />
     </state>
     <state x="655" y="470" key="#com.intellij.execution.impl.EditConfigurationsDialog/-3968.392.1920.1080/-2048.359.2048.1152/3008.0.3008.1692/0.23.3008.1626@0.23.3008.1626" timestamp="1586258351500" />
-    <state width="1495" height="308" key="GridCell.Tab.0.bottom" timestamp="1586258706900">
+    <state width="1495" height="308" key="GridCell.Tab.0.bottom" timestamp="1586271095671">
       <screen x="0" y="23" width="3008" height="1626" />
     </state>
-    <state width="1495" height="308" key="GridCell.Tab.0.bottom/-3968.392.1920.1080/-2048.359.2048.1152/3008.0.3008.1692/0.23.3008.1626@0.23.3008.1626" timestamp="1586258706900" />
-    <state width="1495" height="308" key="GridCell.Tab.0.center" timestamp="1586258706899">
+    <state width="1495" height="308" key="GridCell.Tab.0.bottom/-3968.392.1920.1080/-2048.359.2048.1152/3008.0.3008.1692/0.23.3008.1626@0.23.3008.1626" timestamp="1586271095671" />
+    <state width="1495" height="308" key="GridCell.Tab.0.center" timestamp="1586271095670">
       <screen x="0" y="23" width="3008" height="1626" />
     </state>
-    <state width="1495" height="308" key="GridCell.Tab.0.center/-3968.392.1920.1080/-2048.359.2048.1152/3008.0.3008.1692/0.23.3008.1626@0.23.3008.1626" timestamp="1586258706899" />
-    <state width="1495" height="308" key="GridCell.Tab.0.left" timestamp="1586258706898">
+    <state width="1495" height="308" key="GridCell.Tab.0.center/-3968.392.1920.1080/-2048.359.2048.1152/3008.0.3008.1692/0.23.3008.1626@0.23.3008.1626" timestamp="1586271095670" />
+    <state width="1495" height="308" key="GridCell.Tab.0.left" timestamp="1586271095670">
       <screen x="0" y="23" width="3008" height="1626" />
     </state>
-    <state width="1495" height="308" key="GridCell.Tab.0.left/-3968.392.1920.1080/-2048.359.2048.1152/3008.0.3008.1692/0.23.3008.1626@0.23.3008.1626" timestamp="1586258706898" />
-    <state width="1495" height="308" key="GridCell.Tab.0.right" timestamp="1586258706899">
+    <state width="1495" height="308" key="GridCell.Tab.0.left/-3968.392.1920.1080/-2048.359.2048.1152/3008.0.3008.1692/0.23.3008.1626@0.23.3008.1626" timestamp="1586271095670" />
+    <state width="1495" height="308" key="GridCell.Tab.0.right" timestamp="1586271095671">
       <screen x="0" y="23" width="3008" height="1626" />
     </state>
-    <state width="1495" height="308" key="GridCell.Tab.0.right/-3968.392.1920.1080/-2048.359.2048.1152/3008.0.3008.1692/0.23.3008.1626@0.23.3008.1626" timestamp="1586258706899" />
+    <state width="1495" height="308" key="GridCell.Tab.0.right/-3968.392.1920.1080/-2048.359.2048.1152/3008.0.3008.1692/0.23.3008.1626@0.23.3008.1626" timestamp="1586271095671" />
     <state x="1001" y="368" key="SettingsEditor" timestamp="1586255196556">
       <screen x="0" y="23" width="3008" height="1626" />
     </state>
