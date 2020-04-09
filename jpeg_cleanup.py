@@ -14,6 +14,7 @@ print("input dir: " + sys.argv[1])
 inDirPath = sys.argv[1];
 
 jpegsList = glob.glob(inDirPath + '/**/*.jpg', recursive=True)
+
 for jpegFile in jpegsList:
 	try:
 		print("trying " + jpegFile + " ...")

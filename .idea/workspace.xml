@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28dbea26-57e0-4a5f-a74b-1b001b9e1eb5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/removeDuplicates.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpeg_cleanup.py" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg_cleanup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nef_organize.py" beforeDir="false" afterPath="$PROJECT_DIR$/nef_organize.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
